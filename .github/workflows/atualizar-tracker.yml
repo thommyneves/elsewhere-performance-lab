@@ -1,0 +1,62 @@
+name: Atualizar dados do Tracker
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-tracker
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar bibliotecas
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas beautifulsoup4 openpyxl playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Coletar dados do Tracker
+        env:
+          CI: "true"
+        run: python puxar_tracker.py
+
+      - name: Gerar análises
+        run: python analisar_tracker.py
+
+      - name: Salvar dados atualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add dados_tracker/tracker_dados.json
+          git add dados_tracker/tracker_insights.json
+          git add dados_tracker/tracker_agentes.csv
+          git add dados_tracker/tracker_mapas.csv
+          git add dados_tracker/tracker_dados.xlsx
+          git add elsewhere-performance-lab-source/public/tracker_insights.json
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração encontrada."
+          else
+            git commit -m "Atualiza dados automáticos do Tracker"
+            git push
+          fi

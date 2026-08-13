@@ -6,6 +6,8 @@ import time
 from datetime import datetime
 from pathlib import Path
 
+import os
+
 import pandas as pd
 from bs4 import BeautifulSoup
 from openpyxl.formatting.rule import ColorScaleRule
@@ -23,6 +25,8 @@ RIOT_ID = "elsewhere#999t"
 PLATAFORMA = "pc"
 PLAYLIST = "competitive"
 SEASON_ID = "4f0864e2-40af-28a4-de2c-0e9e64e75f23"
+
+MODO_HEADLESS = os.getenv("CI", "").lower() == "true"
 
 PASTA_SAIDA = Path("dados_tracker")
 
@@ -453,18 +457,18 @@ def abrir_navegador(playwright, usar_chrome=False):
     if usar_chrome:
         return playwright.chromium.launch(
             channel="chrome",
-            headless=False,
+            headless=MODO_HEADLESS,
             args=argumentos,
         )
 
     try:
-        return playwright.chromium.launch(headless=False, args=argumentos)
+        return playwright.chromium.launch(headless=MODO_HEADLESS, args=argumentos)
     except PlaywrightError as erro:
         print(f"Nao foi possivel abrir o Chromium: {erro}")
         print("Tentando usar o Google Chrome instalado...")
         return playwright.chromium.launch(
             channel="chrome",
-            headless=False,
+            headless=MODO_HEADLESS,
             args=argumentos,
         )
 

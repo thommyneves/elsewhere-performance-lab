@@ -17,8 +17,8 @@ const conf=(v:string)=>({alta:"Alta",media:"Média",baixa:"Baixa",muito_baixa:"M
 
 export default function Home(){
  const [data,setData]=useState(demo),[tab,setTab]=useState("overview"),[updated,setUpdated]=useState<Date|null>(null),[source,setSource]=useState("Demonstração"),[pulse,setPulse]=useState(false);
- const load=useCallback(async()=>{try{const r=await fetch(`/tracker_insights.json?t=${Date.now()}`,{cache:"no-store"});if(!r.ok)throw 0;setData(await r.json());setUpdated(new Date());setSource("JSON conectado");setPulse(true);setTimeout(()=>setPulse(false),650)}catch{}},[]);
- useEffect(()=>{setUpdated(new Date());load();const id=setInterval(load,3000);return()=>clearInterval(id)},[load]);
+ const load=useCallback(async()=>{try{const r=await fetch(`https://raw.githubusercontent.com/thommyneves/elsewhere-performance-lab/main/elsewhere-performance-lab-source/public/tracker_insights.json?t=${Date.now()}`,{cache:"no-store"});if(!r.ok)throw 0;setData(await r.json());setUpdated(new Date());setSource("JSON conectado");setPulse(true);setTimeout(()=>setPulse(false),650)}catch{}},[]);
+ useEffect(()=>{setUpdated(new Date());load();const id=setInterval(load,300000);return()=>clearInterval(id)},[load]);
  const agents=data.agentes.top_5??[],maps=data.mapas.ranking??[],best=agents[0];
  const total=useMemo(()=>maps.reduce((s,m)=>s+m.partidas,0),[maps]);
  return <main><div className="aurora one"/><div className="aurora two"/><div className="noise"/>
