@@ -2,8 +2,8 @@
   "metadata": {
     "jogador": "elsewhere#999t",
     "season_id": "4f0864e2-40af-28a4-de2c-0e9e64e75f23",
-    "gerado_em": "2026-08-15T01:53:53+00:00",
-    "quantidade_agentes": 14,
+    "gerado_em": "2026-08-15T07:02:37+00:00",
+    "quantidade_agentes": 15,
     "quantidade_mapas": 7
   },
   "metodologia": {
@@ -47,17 +47,17 @@
           "kast": 70.2
         },
         "stats_ajustados": {
-          "win_rate": 46.42,
+          "win_rate": 46.35,
           "kd": 0.93,
-          "adr": 145.92,
-          "acs": 217.36,
-          "kast": 70.42
+          "adr": 145.94,
+          "acs": 217.37,
+          "kast": 70.36
         },
         "fator_confiabilidade": 0.8584,
         "elegivel_top_5": true,
-        "score": 85.51,
+        "score": 90.96,
         "analise": "Destaques ajustados acima da media: K/D. Amostra consistente; os numeros individuais recebem grande peso.",
-        "posicao_ranking_completo": 4,
+        "posicao_ranking_completo": 5,
         "posicao": 1
       },
       {
@@ -73,44 +73,18 @@
           "kast": 73.7
         },
         "stats_ajustados": {
-          "win_rate": 43.14,
+          "win_rate": 43.11,
           "kd": 0.87,
-          "adr": 150.33,
-          "acs": 225.63,
-          "kast": 73.33
+          "adr": 150.34,
+          "acs": 225.64,
+          "kast": 73.29
         },
         "fator_confiabilidade": 0.9269,
         "elegivel_top_5": true,
-        "score": 85.42,
+        "score": 89.6,
         "analise": "Destaques ajustados acima da media: ADR, ACS, KAST. Amostra consistente; os numeros individuais recebem grande peso.",
-        "posicao_ranking_completo": 5,
+        "posicao_ranking_completo": 6,
         "posicao": 2
-      },
-      {
-        "nome": "Chamber",
-        "funcao": "Sentinel",
-        "partidas": 13,
-        "confianca": "media",
-        "stats_reais": {
-          "win_rate": 61.5,
-          "kd": 0.86,
-          "adr": 125.6,
-          "acs": 188.2,
-          "kast": 67.9
-        },
-        "stats_ajustados": {
-          "win_rate": 54.96,
-          "kd": 0.87,
-          "adr": 133.23,
-          "acs": 199.0,
-          "kast": 69.27
-        },
-        "fator_confiabilidade": 0.7518,
-        "elegivel_top_5": true,
-        "score": 68.77,
-        "analise": "Destaques ajustados acima da media: taxa de vitoria. Amostra razoavel, mas ainda sujeita a variacao.",
-        "posicao_ranking_completo": 10,
-        "posicao": 3
       },
       {
         "nome": "Sova",
@@ -125,17 +99,43 @@
           "kast": 72.0
         },
         "stats_ajustados": {
-          "win_rate": 44.39,
+          "win_rate": 44.27,
           "kd": 0.89,
-          "adr": 140.15,
-          "acs": 203.86,
-          "kast": 71.61
+          "adr": 140.18,
+          "acs": 203.87,
+          "kast": 71.5
         },
         "fator_confiabilidade": 0.7638,
         "elegivel_top_5": true,
-        "score": 59.89,
+        "score": 64.34,
         "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra razoavel, mas ainda sujeita a variacao.",
         "posicao_ranking_completo": 12,
+        "posicao": 3
+      },
+      {
+        "nome": "Chamber",
+        "funcao": "Sentinel",
+        "partidas": 14,
+        "confianca": "media",
+        "stats_reais": {
+          "win_rate": 57.1,
+          "kd": 0.83,
+          "adr": 123.6,
+          "acs": 185.3,
+          "kast": 67.2
+        },
+        "stats_ajustados": {
+          "win_rate": 52.56,
+          "kd": 0.85,
+          "adr": 131.78,
+          "acs": 196.87,
+          "kast": 68.7
+        },
+        "fator_confiabilidade": 0.7638,
+        "elegivel_top_5": true,
+        "score": 62.39,
+        "analise": "Destaques ajustados acima da media: taxa de vitoria. Amostra razoavel, mas ainda sujeita a variacao.",
+        "posicao_ranking_completo": 13,
         "posicao": 4
       },
       {
@@ -151,46 +151,21 @@
           "kast": 60.7
         },
         "stats_ajustados": {
-          "win_rate": 45.0,
+          "win_rate": 44.84,
           "kd": 0.81,
-          "adr": 134.74,
-          "acs": 197.29,
-          "kast": 66.79
+          "adr": 134.78,
+          "acs": 197.31,
+          "kast": 66.64
         },
         "fator_confiabilidade": 0.6417,
         "elegivel_top_5": true,
-        "score": 34.74,
+        "score": 38.24,
         "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra pequena; a nota foi puxada para a media geral.",
-        "posicao_ranking_completo": 13,
+        "posicao_ranking_completo": 14,
         "posicao": 5
       }
     ],
     "ranking_completo": [
-      {
-        "nome": "Neon",
-        "funcao": "Duelist",
-        "partidas": 2,
-        "confianca": "muito_baixa",
-        "stats_reais": {
-          "win_rate": 100.0,
-          "kd": 1.33,
-          "adr": 169.2,
-          "acs": 273.5,
-          "kast": 78.6
-        },
-        "stats_ajustados": {
-          "win_rate": 55.39,
-          "kd": 0.96,
-          "adr": 147.5,
-          "acs": 223.11,
-          "kast": 72.31
-        },
-        "fator_confiabilidade": 0.4082,
-        "elegivel_top_5": false,
-        "score": 100.0,
-        "analise": "Destaques ajustados acima da media: taxa de vitoria, K/D, ADR, ACS. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
-        "posicao_ranking_completo": 1
-      },
       {
         "nome": "Sage",
         "funcao": "Sentinel",
@@ -204,16 +179,41 @@
           "kast": 93.8
         },
         "stats_ajustados": {
-          "win_rate": 51.33,
+          "win_rate": 51.09,
           "kd": 1.04,
-          "adr": 148.11,
-          "acs": 219.7,
-          "kast": 73.12
+          "adr": 148.18,
+          "acs": 219.73,
+          "kast": 72.89
         },
         "fator_confiabilidade": 0.3015,
         "elegivel_top_5": false,
-        "score": 94.25,
+        "score": 100.0,
         "analise": "Destaques ajustados acima da media: taxa de vitoria, K/D, ADR, ACS. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
+        "posicao_ranking_completo": 1
+      },
+      {
+        "nome": "Neon",
+        "funcao": "Duelist",
+        "partidas": 3,
+        "confianca": "muito_baixa",
+        "stats_reais": {
+          "win_rate": 66.7,
+          "kd": 1.13,
+          "adr": 153.2,
+          "acs": 243.9,
+          "kast": 68.3
+        },
+        "stats_ajustados": {
+          "win_rate": 50.93,
+          "kd": 0.94,
+          "adr": 145.53,
+          "acs": 220.19,
+          "kast": 70.22
+        },
+        "fator_confiabilidade": 0.4804,
+        "elegivel_top_5": false,
+        "score": 96.26,
+        "analise": "Destaques ajustados acima da media: taxa de vitoria, K/D, ACS. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
         "posicao_ranking_completo": 2
       },
       {
@@ -229,17 +229,42 @@
           "kast": 78.3
         },
         "stats_ajustados": {
-          "win_rate": 51.33,
+          "win_rate": 51.09,
           "kd": 0.95,
-          "adr": 148.34,
-          "acs": 218.6,
-          "kast": 71.71
+          "adr": 148.4,
+          "acs": 218.63,
+          "kast": 71.48
         },
         "fator_confiabilidade": 0.3015,
         "elegivel_top_5": false,
-        "score": 87.04,
+        "score": 92.44,
         "analise": "Destaques ajustados acima da media: taxa de vitoria, K/D, ADR. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
         "posicao_ranking_completo": 3
+      },
+      {
+        "nome": "Omen",
+        "funcao": "Controller",
+        "partidas": 1,
+        "confianca": "muito_baixa",
+        "stats_reais": {
+          "win_rate": 100.0,
+          "kd": 1.31,
+          "adr": 221.3,
+          "acs": 312.4,
+          "kast": 70.0
+        },
+        "stats_ajustados": {
+          "win_rate": 51.09,
+          "kd": 0.92,
+          "adr": 150.33,
+          "acs": 222.1,
+          "kast": 70.72
+        },
+        "fator_confiabilidade": 0.3015,
+        "elegivel_top_5": false,
+        "score": 91.29,
+        "analise": "Destaques ajustados acima da media: taxa de vitoria, K/D, ADR, ACS. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
+        "posicao_ranking_completo": 4
       },
       {
         "nome": "Jett",
@@ -254,17 +279,17 @@
           "kast": 70.2
         },
         "stats_ajustados": {
-          "win_rate": 46.42,
+          "win_rate": 46.35,
           "kd": 0.93,
-          "adr": 145.92,
-          "acs": 217.36,
-          "kast": 70.42
+          "adr": 145.94,
+          "acs": 217.37,
+          "kast": 70.36
         },
         "fator_confiabilidade": 0.8584,
         "elegivel_top_5": true,
-        "score": 85.51,
+        "score": 90.96,
         "analise": "Destaques ajustados acima da media: K/D. Amostra consistente; os numeros individuais recebem grande peso.",
-        "posicao_ranking_completo": 4
+        "posicao_ranking_completo": 5
       },
       {
         "nome": "Clove",
@@ -279,17 +304,17 @@
           "kast": 73.7
         },
         "stats_ajustados": {
-          "win_rate": 43.14,
+          "win_rate": 43.11,
           "kd": 0.87,
-          "adr": 150.33,
-          "acs": 225.63,
-          "kast": 73.33
+          "adr": 150.34,
+          "acs": 225.64,
+          "kast": 73.29
         },
         "fator_confiabilidade": 0.9269,
         "elegivel_top_5": true,
-        "score": 85.42,
+        "score": 89.6,
         "analise": "Destaques ajustados acima da media: ADR, ACS, KAST. Amostra consistente; os numeros individuais recebem grande peso.",
-        "posicao_ranking_completo": 5
+        "posicao_ranking_completo": 6
       },
       {
         "nome": "Fade",
@@ -304,17 +329,17 @@
           "kast": 75.4
         },
         "stats_ajustados": {
-          "win_rate": 51.14,
+          "win_rate": 50.93,
           "kd": 0.9,
-          "adr": 138.85,
-          "acs": 206.59,
-          "kast": 72.06
+          "adr": 138.91,
+          "acs": 206.62,
+          "kast": 71.86
         },
         "fator_confiabilidade": 0.4804,
         "elegivel_top_5": false,
-        "score": 77.96,
+        "score": 83.75,
         "analise": "Destaques ajustados acima da media: taxa de vitoria. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
-        "posicao_ranking_completo": 6
+        "posicao_ranking_completo": 7
       },
       {
         "nome": "Raze",
@@ -329,17 +354,17 @@
           "kast": 60.6
         },
         "stats_ajustados": {
-          "win_rate": 47.06,
+          "win_rate": 46.83,
           "kd": 0.89,
-          "adr": 147.22,
-          "acs": 218.28,
-          "kast": 69.31
+          "adr": 147.28,
+          "acs": 218.31,
+          "kast": 69.1
         },
         "fator_confiabilidade": 0.4082,
         "elegivel_top_5": false,
-        "score": 76.18,
+        "score": 80.64,
         "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
-        "posicao_ranking_completo": 7
+        "posicao_ranking_completo": 8
       },
       {
         "nome": "Cypher",
@@ -354,17 +379,17 @@
           "kast": 70.8
         },
         "stats_ajustados": {
-          "win_rate": 51.33,
+          "win_rate": 51.09,
           "kd": 0.87,
-          "adr": 140.9,
-          "acs": 208.88,
-          "kast": 71.03
+          "adr": 140.97,
+          "acs": 208.91,
+          "kast": 70.8
         },
         "fator_confiabilidade": 0.3015,
         "elegivel_top_5": false,
-        "score": 74.99,
+        "score": 80.16,
         "analise": "Destaques ajustados acima da media: taxa de vitoria. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
-        "posicao_ranking_completo": 8
+        "posicao_ranking_completo": 9
       },
       {
         "nome": "Harbor",
@@ -379,41 +404,16 @@
           "kast": 66.7
         },
         "stats_ajustados": {
-          "win_rate": 51.33,
+          "win_rate": 51.09,
           "kd": 0.86,
-          "adr": 138.42,
-          "acs": 206.13,
-          "kast": 70.66
+          "adr": 138.48,
+          "acs": 206.17,
+          "kast": 70.42
         },
         "fator_confiabilidade": 0.3015,
         "elegivel_top_5": false,
-        "score": 72.2,
+        "score": 77.35,
         "analise": "Destaques ajustados acima da media: taxa de vitoria. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
-        "posicao_ranking_completo": 9
-      },
-      {
-        "nome": "Chamber",
-        "funcao": "Sentinel",
-        "partidas": 13,
-        "confianca": "media",
-        "stats_reais": {
-          "win_rate": 61.5,
-          "kd": 0.86,
-          "adr": 125.6,
-          "acs": 188.2,
-          "kast": 67.9
-        },
-        "stats_ajustados": {
-          "win_rate": 54.96,
-          "kd": 0.87,
-          "adr": 133.23,
-          "acs": 199.0,
-          "kast": 69.27
-        },
-        "fator_confiabilidade": 0.7518,
-        "elegivel_top_5": true,
-        "score": 68.77,
-        "analise": "Destaques ajustados acima da media: taxa de vitoria. Amostra razoavel, mas ainda sujeita a variacao.",
         "posicao_ranking_completo": 10
       },
       {
@@ -429,15 +429,15 @@
           "kast": 61.1
         },
         "stats_ajustados": {
-          "win_rate": 42.24,
+          "win_rate": 42.0,
           "kd": 0.86,
-          "adr": 139.79,
-          "acs": 208.15,
-          "kast": 70.15
+          "adr": 139.86,
+          "acs": 208.19,
+          "kast": 69.92
         },
         "fator_confiabilidade": 0.3015,
         "elegivel_top_5": false,
-        "score": 63.58,
+        "score": 67.44,
         "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
         "posicao_ranking_completo": 11
       },
@@ -454,17 +454,42 @@
           "kast": 72.0
         },
         "stats_ajustados": {
-          "win_rate": 44.39,
+          "win_rate": 44.27,
           "kd": 0.89,
-          "adr": 140.15,
-          "acs": 203.86,
-          "kast": 71.61
+          "adr": 140.18,
+          "acs": 203.87,
+          "kast": 71.5
         },
         "fator_confiabilidade": 0.7638,
         "elegivel_top_5": true,
-        "score": 59.89,
+        "score": 64.34,
         "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra razoavel, mas ainda sujeita a variacao.",
         "posicao_ranking_completo": 12
+      },
+      {
+        "nome": "Chamber",
+        "funcao": "Sentinel",
+        "partidas": 14,
+        "confianca": "media",
+        "stats_reais": {
+          "win_rate": 57.1,
+          "kd": 0.83,
+          "adr": 123.6,
+          "acs": 185.3,
+          "kast": 67.2
+        },
+        "stats_ajustados": {
+          "win_rate": 52.56,
+          "kd": 0.85,
+          "adr": 131.78,
+          "acs": 196.87,
+          "kast": 68.7
+        },
+        "fator_confiabilidade": 0.7638,
+        "elegivel_top_5": true,
+        "score": 62.39,
+        "analise": "Destaques ajustados acima da media: taxa de vitoria. Amostra razoavel, mas ainda sujeita a variacao.",
+        "posicao_ranking_completo": 13
       },
       {
         "nome": "Phoenix",
@@ -479,17 +504,17 @@
           "kast": 60.7
         },
         "stats_ajustados": {
-          "win_rate": 45.0,
+          "win_rate": 44.84,
           "kd": 0.81,
-          "adr": 134.74,
-          "acs": 197.29,
-          "kast": 66.79
+          "adr": 134.78,
+          "acs": 197.31,
+          "kast": 66.64
         },
         "fator_confiabilidade": 0.6417,
         "elegivel_top_5": true,
-        "score": 34.74,
+        "score": 38.24,
         "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra pequena; a nota foi puxada para a media geral.",
-        "posicao_ranking_completo": 13
+        "posicao_ranking_completo": 14
       },
       {
         "nome": "Reyna",
@@ -504,17 +529,17 @@
           "kast": 62.5
         },
         "stats_ajustados": {
-          "win_rate": 33.22,
+          "win_rate": 33.06,
           "kd": 0.78,
-          "adr": 130.7,
-          "acs": 194.99,
-          "kast": 67.53
+          "adr": 130.74,
+          "acs": 195.01,
+          "kast": 67.38
         },
         "fator_confiabilidade": 0.6417,
         "elegivel_top_5": true,
         "score": 0.0,
         "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra pequena; a nota foi puxada para a media geral.",
-        "posicao_ranking_completo": 14
+        "posicao_ranking_completo": 15
       }
     ],
     "criterio_top_5": {
@@ -522,11 +547,11 @@
       "motivo": "Agentes abaixo do minimo permanecem no ranking completo, mas nao entram no Top 5 por insuficiencia de amostra."
     },
     "medias_gerais": {
-      "win_rate": 46.47,
-      "kd": 0.89,
-      "adr": 143.16,
-      "acs": 213.04,
-      "kast": 71.05
+      "win_rate": 46.2,
+      "kd": 0.88,
+      "adr": 143.23,
+      "acs": 213.08,
+      "kast": 70.8
     }
   },
   "mapas": {
@@ -540,10 +565,10 @@
         "win_rate_conservador": 39.59,
         "confianca": "media",
         "stats_ajustados": {
-          "win_rate": 53.5,
+          "win_rate": 53.41,
           "kd": 0.93,
-          "adr": 149.64,
-          "acs": 222.1,
+          "adr": 149.66,
+          "acs": 222.11,
           "dd_delta": -4.27,
           "win_rate_conservador": 39.59
         },
@@ -567,10 +592,10 @@
         "win_rate_conservador": 41.85,
         "confianca": "media",
         "stats_ajustados": {
-          "win_rate": 55.31,
-          "kd": 0.89,
-          "adr": 143.93,
-          "acs": 216.89,
+          "win_rate": 55.22,
+          "kd": 0.88,
+          "adr": 143.96,
+          "acs": 216.9,
           "dd_delta": -14.38,
           "win_rate_conservador": 41.85
         },
@@ -588,45 +613,45 @@
           ],
           "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
         },
-        "score": 76.9,
+        "score": 78.08,
         "posicao": 2
       },
       {
         "mapa": "Haven",
-        "partidas": 23,
+        "partidas": 24,
         "vitorias": 14,
-        "derrotas": 9,
-        "win_rate_real": 60.9,
-        "win_rate_conservador": 43.85,
+        "derrotas": 10,
+        "win_rate_real": 58.3,
+        "win_rate_conservador": 41.77,
         "confianca": "media",
         "stats_ajustados": {
-          "win_rate": 56.36,
-          "kd": 0.87,
-          "adr": 140.98,
-          "acs": 207.24,
-          "dd_delta": -12.44,
-          "win_rate_conservador": 43.85
+          "win_rate": 54.59,
+          "kd": 0.86,
+          "adr": 140.34,
+          "acs": 206.41,
+          "dd_delta": -13.87,
+          "win_rate_conservador": 41.77
         },
         "melhor_agente_estimado": {
           "agente": "Jett",
-          "chance_estimada": 65.74,
+          "chance_estimada": 65.26,
           "taxa_exibida_tracker": 67.0,
           "confianca": "media",
           "outros_candidatos": [
             {
               "agente": "Clove",
-              "chance_estimada": 52.26,
+              "chance_estimada": 51.66,
               "taxa_exibida_tracker": 50.0
             },
             {
               "agente": "Phoenix",
-              "chance_estimada": 49.65,
+              "chance_estimada": 48.45,
               "taxa_exibida_tracker": 40.0
             }
           ],
           "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
         },
-        "score": 66.43,
+        "score": 61.04,
         "posicao": 3
       },
       {
@@ -638,10 +663,10 @@
         "win_rate_conservador": 32.74,
         "confianca": "media",
         "stats_ajustados": {
-          "win_rate": 48.64,
+          "win_rate": 48.56,
           "kd": 0.88,
-          "adr": 143.47,
-          "acs": 210.15,
+          "adr": 143.49,
+          "acs": 210.17,
           "dd_delta": -7.71,
           "win_rate_conservador": 32.74
         },
@@ -659,78 +684,78 @@
           ],
           "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
         },
-        "score": 58.56,
+        "score": 59.29,
         "posicao": 4
       },
       {
-        "mapa": "Lotus",
-        "partidas": 18,
-        "vitorias": 8,
-        "derrotas": 10,
-        "win_rate_real": 44.4,
-        "win_rate_conservador": 27.19,
-        "confianca": "media",
-        "stats_ajustados": {
-          "win_rate": 44.95,
-          "kd": 0.87,
-          "adr": 141.71,
-          "acs": 212.95,
-          "dd_delta": -11.05,
-          "win_rate_conservador": 27.19
-        },
-        "melhor_agente_estimado": {
-          "agente": "Jett",
-          "chance_estimada": 48.6,
-          "taxa_exibida_tracker": 50.0,
-          "confianca": "media",
-          "outros_candidatos": [
-            {
-              "agente": "Clove",
-              "chance_estimada": 35.85,
-              "taxa_exibida_tracker": 33.0
-            }
-          ],
-          "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
-        },
-        "score": 46.77,
-        "posicao": 5
-      },
-      {
         "mapa": "Breeze",
-        "partidas": 21,
-        "vitorias": 7,
+        "partidas": 22,
+        "vitorias": 8,
         "derrotas": 14,
-        "win_rate_real": 33.3,
-        "win_rate_conservador": 19.2,
+        "win_rate_real": 36.4,
+        "win_rate_conservador": 21.87,
         "confianca": "media",
         "stats_ajustados": {
-          "win_rate": 37.37,
-          "kd": 0.86,
-          "adr": 141.24,
-          "acs": 210.72,
-          "dd_delta": -11.05,
-          "win_rate_conservador": 19.2
+          "win_rate": 39.3,
+          "kd": 0.87,
+          "adr": 143.64,
+          "acs": 213.86,
+          "dd_delta": -8.29,
+          "win_rate_conservador": 21.87
         },
         "melhor_agente_estimado": {
           "agente": "Sova",
-          "chance_estimada": 37.99,
+          "chance_estimada": 38.92,
           "taxa_exibida_tracker": 40.0,
           "confianca": "media",
           "outros_candidatos": [
             {
               "agente": "Clove",
-              "chance_estimada": 33.07,
+              "chance_estimada": 33.73,
               "taxa_exibida_tracker": 33.0
             },
             {
               "agente": "Jett",
-              "chance_estimada": 22.96,
+              "chance_estimada": 23.51,
               "taxa_exibida_tracker": 20.0
             }
           ],
           "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
         },
-        "score": 28.47,
+        "score": 42.75,
+        "posicao": 5
+      },
+      {
+        "mapa": "Lotus",
+        "partidas": 19,
+        "vitorias": 8,
+        "derrotas": 11,
+        "win_rate_real": 42.1,
+        "win_rate_conservador": 25.63,
+        "confianca": "media",
+        "stats_ajustados": {
+          "win_rate": 43.33,
+          "kd": 0.86,
+          "adr": 140.34,
+          "acs": 210.87,
+          "dd_delta": -12.36,
+          "win_rate_conservador": 25.63
+        },
+        "melhor_agente_estimado": {
+          "agente": "Jett",
+          "chance_estimada": 48.1,
+          "taxa_exibida_tracker": 50.0,
+          "confianca": "media",
+          "outros_candidatos": [
+            {
+              "agente": "Clove",
+              "chance_estimada": 35.18,
+              "taxa_exibida_tracker": 33.0
+            }
+          ],
+          "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
+        },
+        "score": 37.65,
         "posicao": 6
       },
       {
@@ -742,10 +767,10 @@
         "win_rate_conservador": 6.86,
         "confianca": "media",
         "stats_ajustados": {
-          "win_rate": 26.56,
+          "win_rate": 26.47,
           "kd": 0.84,
-          "adr": 140.17,
-          "acs": 209.93,
+          "adr": 140.2,
+          "acs": 209.94,
           "dd_delta": -16.84,
           "win_rate_conservador": 6.86
         },
