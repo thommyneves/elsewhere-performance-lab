@@ -2,8 +2,8 @@
   "metadata": {
     "jogador": "elsewhere#999t",
     "season_id": "4f0864e2-40af-28a4-de2c-0e9e64e75f23",
-    "gerado_em": "2026-08-18T19:01:29+00:00",
-    "quantidade_agentes": 15,
+    "gerado_em": "2026-08-19T01:57:22+00:00",
+    "quantidade_agentes": 0,
     "quantidade_mapas": 7
   },
   "metodologia": {
@@ -33,526 +33,9 @@
     "limitacao_agente_por_mapa": "Top Agents nao informa a quantidade de partidas de cada agente em cada mapa. A chance por mapa e uma estimativa conservadora, nao uma probabilidade causal ou garantia de resultado."
   },
   "agentes": {
-    "top_5": [
-      {
-        "nome": "Clove",
-        "funcao": "Controller",
-        "partidas": 63,
-        "confianca": "alta",
-        "stats_reais": {
-          "win_rate": 42.9,
-          "kd": 0.89,
-          "adr": 153.5,
-          "acs": 231.0,
-          "kast": 73.7
-        },
-        "stats_ajustados": {
-          "win_rate": 43.3,
-          "kd": 0.89,
-          "adr": 152.17,
-          "acs": 228.66,
-          "kast": 73.34
-        },
-        "fator_confiabilidade": 0.929,
-        "elegivel_top_5": true,
-        "score": 96.49,
-        "analise": "Destaques ajustados acima da media: ADR, ACS, KAST. Amostra consistente; os numeros individuais recebem grande peso.",
-        "posicao_ranking_completo": 2,
-        "posicao": 1
-      },
-      {
-        "nome": "Jett",
-        "funcao": "Duelist",
-        "partidas": 28,
-        "confianca": "alta",
-        "stats_reais": {
-          "win_rate": 46.4,
-          "kd": 0.94,
-          "adr": 146.9,
-          "acs": 218.9,
-          "kast": 70.2
-        },
-        "stats_ajustados": {
-          "win_rate": 46.25,
-          "kd": 0.93,
-          "adr": 146.08,
-          "acs": 217.6,
-          "kast": 70.42
-        },
-        "fator_confiabilidade": 0.8584,
-        "elegivel_top_5": true,
-        "score": 89.85,
-        "analise": "Destaques ajustados acima da media: K/D. Amostra consistente; os numeros individuais recebem grande peso.",
-        "posicao_ranking_completo": 6,
-        "posicao": 2
-      },
-      {
-        "nome": "Neon",
-        "funcao": "Duelist",
-        "partidas": 6,
-        "confianca": "baixa",
-        "stats_reais": {
-          "win_rate": 50.0,
-          "kd": 1.0,
-          "adr": 140.1,
-          "acs": 220.1,
-          "kast": 70.5
-        },
-        "stats_ajustados": {
-          "win_rate": 47.39,
-          "kd": 0.93,
-          "adr": 142.4,
-          "acs": 216.26,
-          "kast": 70.84
-        },
-        "fator_confiabilidade": 0.6124,
-        "elegivel_top_5": true,
-        "score": 87.03,
-        "analise": "Destaques ajustados acima da media: taxa de vitoria, K/D. Amostra pequena; a nota foi puxada para a media geral.",
-        "posicao_ranking_completo": 7,
-        "posicao": 3
-      },
-      {
-        "nome": "Chamber",
-        "funcao": "Sentinel",
-        "partidas": 14,
-        "confianca": "media",
-        "stats_reais": {
-          "win_rate": 57.1,
-          "kd": 0.83,
-          "adr": 123.6,
-          "acs": 185.3,
-          "kast": 67.2
-        },
-        "stats_ajustados": {
-          "win_rate": 52.4,
-          "kd": 0.86,
-          "adr": 132.01,
-          "acs": 197.24,
-          "kast": 68.8
-        },
-        "fator_confiabilidade": 0.7638,
-        "elegivel_top_5": true,
-        "score": 62.51,
-        "analise": "Destaques ajustados acima da media: taxa de vitoria. Amostra razoavel, mas ainda sujeita a variacao.",
-        "posicao_ranking_completo": 12,
-        "posicao": 4
-      },
-      {
-        "nome": "Sova",
-        "funcao": "Initiator",
-        "partidas": 16,
-        "confianca": "media",
-        "stats_reais": {
-          "win_rate": 43.8,
-          "kd": 0.88,
-          "adr": 136.7,
-          "acs": 195.1,
-          "kast": 72.1
-        },
-        "stats_ajustados": {
-          "win_rate": 44.58,
-          "kd": 0.89,
-          "adr": 139.42,
-          "acs": 202.35,
-          "kast": 71.7
-        },
-        "fator_confiabilidade": 0.7845,
-        "elegivel_top_5": true,
-        "score": 61.45,
-        "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra razoavel, mas ainda sujeita a variacao.",
-        "posicao_ranking_completo": 13,
-        "posicao": 5
-      }
-    ],
-    "ranking_completo": [
-      {
-        "nome": "Sage",
-        "funcao": "Sentinel",
-        "partidas": 1,
-        "confianca": "muito_baixa",
-        "stats_reais": {
-          "win_rate": 100.0,
-          "kd": 2.57,
-          "adr": 197.6,
-          "acs": 286.3,
-          "kast": 93.8
-        },
-        "stats_ajustados": {
-          "win_rate": 50.75,
-          "kd": 1.05,
-          "adr": 148.67,
-          "acs": 220.53,
-          "kast": 73.12
-        },
-        "fator_confiabilidade": 0.3015,
-        "elegivel_top_5": false,
-        "score": 100.0,
-        "analise": "Destaques ajustados acima da media: taxa de vitoria, K/D, ADR, ACS. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
-        "posicao_ranking_completo": 1
-      },
-      {
-        "nome": "Clove",
-        "funcao": "Controller",
-        "partidas": 63,
-        "confianca": "alta",
-        "stats_reais": {
-          "win_rate": 42.9,
-          "kd": 0.89,
-          "adr": 153.5,
-          "acs": 231.0,
-          "kast": 73.7
-        },
-        "stats_ajustados": {
-          "win_rate": 43.3,
-          "kd": 0.89,
-          "adr": 152.17,
-          "acs": 228.66,
-          "kast": 73.34
-        },
-        "fator_confiabilidade": 0.929,
-        "elegivel_top_5": true,
-        "score": 96.49,
-        "analise": "Destaques ajustados acima da media: ADR, ACS, KAST. Amostra consistente; os numeros individuais recebem grande peso.",
-        "posicao_ranking_completo": 2
-      },
-      {
-        "nome": "Cypher",
-        "funcao": "Sentinel",
-        "partidas": 2,
-        "confianca": "muito_baixa",
-        "stats_reais": {
-          "win_rate": 100.0,
-          "kd": 1.07,
-          "adr": 133.4,
-          "acs": 206.3,
-          "kast": 77.3
-        },
-        "stats_ajustados": {
-          "win_rate": 54.85,
-          "kd": 0.92,
-          "adr": 142.05,
-          "acs": 212.68,
-          "kast": 72.09
-        },
-        "fator_confiabilidade": 0.4082,
-        "elegivel_top_5": false,
-        "score": 94.94,
-        "analise": "Destaques ajustados acima da media: taxa de vitoria. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
-        "posicao_ranking_completo": 3
-      },
-      {
-        "nome": "Killjoy",
-        "funcao": "Sentinel",
-        "partidas": 1,
-        "confianca": "muito_baixa",
-        "stats_reais": {
-          "win_rate": 100.0,
-          "kd": 1.64,
-          "adr": 200.1,
-          "acs": 274.2,
-          "kast": 78.3
-        },
-        "stats_ajustados": {
-          "win_rate": 50.75,
-          "kd": 0.96,
-          "adr": 148.9,
-          "acs": 219.43,
-          "kast": 71.71
-        },
-        "fator_confiabilidade": 0.3015,
-        "elegivel_top_5": false,
-        "score": 92.49,
-        "analise": "Destaques ajustados acima da media: taxa de vitoria, K/D, ADR. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
-        "posicao_ranking_completo": 4
-      },
-      {
-        "nome": "Omen",
-        "funcao": "Controller",
-        "partidas": 1,
-        "confianca": "muito_baixa",
-        "stats_reais": {
-          "win_rate": 100.0,
-          "kd": 1.31,
-          "adr": 221.3,
-          "acs": 312.4,
-          "kast": 70.0
-        },
-        "stats_ajustados": {
-          "win_rate": 50.75,
-          "kd": 0.93,
-          "adr": 150.82,
-          "acs": 222.9,
-          "kast": 70.95
-        },
-        "fator_confiabilidade": 0.3015,
-        "elegivel_top_5": false,
-        "score": 91.34,
-        "analise": "Destaques ajustados acima da media: taxa de vitoria, K/D, ADR, ACS. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
-        "posicao_ranking_completo": 5
-      },
-      {
-        "nome": "Jett",
-        "funcao": "Duelist",
-        "partidas": 28,
-        "confianca": "alta",
-        "stats_reais": {
-          "win_rate": 46.4,
-          "kd": 0.94,
-          "adr": 146.9,
-          "acs": 218.9,
-          "kast": 70.2
-        },
-        "stats_ajustados": {
-          "win_rate": 46.25,
-          "kd": 0.93,
-          "adr": 146.08,
-          "acs": 217.6,
-          "kast": 70.42
-        },
-        "fator_confiabilidade": 0.8584,
-        "elegivel_top_5": true,
-        "score": 89.85,
-        "analise": "Destaques ajustados acima da media: K/D. Amostra consistente; os numeros individuais recebem grande peso.",
-        "posicao_ranking_completo": 6
-      },
-      {
-        "nome": "Neon",
-        "funcao": "Duelist",
-        "partidas": 6,
-        "confianca": "baixa",
-        "stats_reais": {
-          "win_rate": 50.0,
-          "kd": 1.0,
-          "adr": 140.1,
-          "acs": 220.1,
-          "kast": 70.5
-        },
-        "stats_ajustados": {
-          "win_rate": 47.39,
-          "kd": 0.93,
-          "adr": 142.4,
-          "acs": 216.26,
-          "kast": 70.84
-        },
-        "fator_confiabilidade": 0.6124,
-        "elegivel_top_5": true,
-        "score": 87.03,
-        "analise": "Destaques ajustados acima da media: taxa de vitoria, K/D. Amostra pequena; a nota foi puxada para a media geral.",
-        "posicao_ranking_completo": 7
-      },
-      {
-        "nome": "Fade",
-        "funcao": "Initiator",
-        "partidas": 4,
-        "confianca": "muito_baixa",
-        "stats_reais": {
-          "win_rate": 50.0,
-          "kd": 0.95,
-          "adr": 134.5,
-          "acs": 193.6,
-          "kast": 77.9
-        },
-        "stats_ajustados": {
-          "win_rate": 47.02,
-          "kd": 0.91,
-          "adr": 141.13,
-          "acs": 208.14,
-          "kast": 73.01
-        },
-        "fator_confiabilidade": 0.5345,
-        "elegivel_top_5": false,
-        "score": 80.88,
-        "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
-        "posicao_ranking_completo": 8
-      },
-      {
-        "nome": "Raze",
-        "funcao": "Duelist",
-        "partidas": 2,
-        "confianca": "muito_baixa",
-        "stats_reais": {
-          "win_rate": 50.0,
-          "kd": 0.9,
-          "adr": 167.5,
-          "acs": 244.5,
-          "kast": 60.6
-        },
-        "stats_ajustados": {
-          "win_rate": 46.52,
-          "kd": 0.9,
-          "adr": 147.73,
-          "acs": 219.04,
-          "kast": 69.31
-        },
-        "fator_confiabilidade": 0.4082,
-        "elegivel_top_5": false,
-        "score": 80.78,
-        "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
-        "posicao_ranking_completo": 9
-      },
-      {
-        "nome": "Harbor",
-        "funcao": "Controller",
-        "partidas": 2,
-        "confianca": "muito_baixa",
-        "stats_reais": {
-          "win_rate": 50.0,
-          "kd": 0.72,
-          "adr": 114.6,
-          "acs": 163.8,
-          "kast": 66.7
-        },
-        "stats_ajustados": {
-          "win_rate": 46.52,
-          "kd": 0.87,
-          "adr": 138.91,
-          "acs": 205.59,
-          "kast": 70.32
-        },
-        "fator_confiabilidade": 0.4082,
-        "elegivel_top_5": false,
-        "score": 69.56,
-        "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
-        "posicao_ranking_completo": 10
-      },
-      {
-        "nome": "Waylay",
-        "funcao": "Duelist",
-        "partidas": 1,
-        "confianca": "muito_baixa",
-        "stats_reais": {
-          "win_rate": 0.0,
-          "kd": 0.62,
-          "adr": 106.1,
-          "acs": 159.3,
-          "kast": 61.1
-        },
-        "stats_ajustados": {
-          "win_rate": 41.66,
-          "kd": 0.87,
-          "adr": 140.35,
-          "acs": 208.98,
-          "kast": 70.14
-        },
-        "fator_confiabilidade": 0.3015,
-        "elegivel_top_5": false,
-        "score": 67.51,
-        "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra muito pequena; resultados extremos foram fortemente penalizados.",
-        "posicao_ranking_completo": 11
-      },
-      {
-        "nome": "Chamber",
-        "funcao": "Sentinel",
-        "partidas": 14,
-        "confianca": "media",
-        "stats_reais": {
-          "win_rate": 57.1,
-          "kd": 0.83,
-          "adr": 123.6,
-          "acs": 185.3,
-          "kast": 67.2
-        },
-        "stats_ajustados": {
-          "win_rate": 52.4,
-          "kd": 0.86,
-          "adr": 132.01,
-          "acs": 197.24,
-          "kast": 68.8
-        },
-        "fator_confiabilidade": 0.7638,
-        "elegivel_top_5": true,
-        "score": 62.51,
-        "analise": "Destaques ajustados acima da media: taxa de vitoria. Amostra razoavel, mas ainda sujeita a variacao.",
-        "posicao_ranking_completo": 12
-      },
-      {
-        "nome": "Sova",
-        "funcao": "Initiator",
-        "partidas": 16,
-        "confianca": "media",
-        "stats_reais": {
-          "win_rate": 43.8,
-          "kd": 0.88,
-          "adr": 136.7,
-          "acs": 195.1,
-          "kast": 72.1
-        },
-        "stats_ajustados": {
-          "win_rate": 44.58,
-          "kd": 0.89,
-          "adr": 139.42,
-          "acs": 202.35,
-          "kast": 71.7
-        },
-        "fator_confiabilidade": 0.7845,
-        "elegivel_top_5": true,
-        "score": 61.45,
-        "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra razoavel, mas ainda sujeita a variacao.",
-        "posicao_ranking_completo": 13
-      },
-      {
-        "nome": "Phoenix",
-        "funcao": "Duelist",
-        "partidas": 7,
-        "confianca": "baixa",
-        "stats_reais": {
-          "win_rate": 42.9,
-          "kd": 0.71,
-          "adr": 122.7,
-          "acs": 174.8,
-          "kast": 60.7
-        },
-        "stats_ajustados": {
-          "win_rate": 44.62,
-          "kd": 0.82,
-          "adr": 135.1,
-          "acs": 197.83,
-          "kast": 66.79
-        },
-        "fator_confiabilidade": 0.6417,
-        "elegivel_top_5": true,
-        "score": 38.6,
-        "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra pequena; a nota foi puxada para a media geral.",
-        "posicao_ranking_completo": 14
-      },
-      {
-        "nome": "Reyna",
-        "funcao": "Duelist",
-        "partidas": 7,
-        "confianca": "baixa",
-        "stats_reais": {
-          "win_rate": 14.3,
-          "kd": 0.62,
-          "adr": 112.9,
-          "acs": 169.2,
-          "kast": 62.5
-        },
-        "stats_ajustados": {
-          "win_rate": 32.84,
-          "kd": 0.78,
-          "adr": 131.06,
-          "acs": 195.52,
-          "kast": 67.53
-        },
-        "fator_confiabilidade": 0.6417,
-        "elegivel_top_5": true,
-        "score": 0.0,
-        "analise": "Depois do ajuste de amostra, nao possui stat claramente acima da media. Amostra pequena; a nota foi puxada para a media geral.",
-        "posicao_ranking_completo": 15
-      }
-    ],
-    "criterio_top_5": {
-      "minimo_partidas": 5,
-      "motivo": "Agentes abaixo do minimo permanecem no ranking completo, mas nao entram no Top 5 por insuficiencia de amostra."
-    },
-    "medias_gerais": {
-      "win_rate": 45.82,
-      "kd": 0.89,
-      "adr": 143.78,
-      "acs": 213.95,
-      "kast": 71.05
-    }
+    "top_5": [],
+    "ranking_completo": [],
+    "medias_gerais": {}
   },
   "mapas": {
     "ranking": [
@@ -574,13 +57,13 @@
         },
         "melhor_agente_estimado": {
           "agente": "Sova",
-          "chance_estimada": 59.05,
+          "chance_estimada": 56.5,
           "taxa_exibida_tracker": 60.0,
-          "confianca": "media",
+          "confianca": "muito_baixa",
           "outros_candidatos": [
             {
               "agente": "Clove",
-              "chance_estimada": 48.17,
+              "chance_estimada": 56.5,
               "taxa_exibida_tracker": 46.0
             }
           ],
@@ -607,13 +90,13 @@
         },
         "melhor_agente_estimado": {
           "agente": "Jett",
-          "chance_estimada": 77.24,
+          "chance_estimada": 57.1,
           "taxa_exibida_tracker": 83.0,
-          "confianca": "media",
+          "confianca": "muito_baixa",
           "outros_candidatos": [
             {
               "agente": "Clove",
-              "chance_estimada": 46.13,
+              "chance_estimada": 57.1,
               "taxa_exibida_tracker": 43.0
             }
           ],
@@ -640,9 +123,9 @@
         },
         "melhor_agente_estimado": {
           "agente": "Clove",
-          "chance_estimada": 63.76,
+          "chance_estimada": 52.4,
           "taxa_exibida_tracker": 67.0,
-          "confianca": "media",
+          "confianca": "muito_baixa",
           "outros_candidatos": [],
           "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
         },
@@ -667,18 +150,18 @@
         },
         "melhor_agente_estimado": {
           "agente": "Jett",
-          "chance_estimada": 65.2,
+          "chance_estimada": 57.7,
           "taxa_exibida_tracker": 67.0,
-          "confianca": "alta",
+          "confianca": "muito_baixa",
           "outros_candidatos": [
             {
               "agente": "Clove",
-              "chance_estimada": 51.49,
+              "chance_estimada": 57.7,
               "taxa_exibida_tracker": 50.0
             },
             {
               "agente": "Phoenix",
-              "chance_estimada": 48.17,
+              "chance_estimada": 57.7,
               "taxa_exibida_tracker": 40.0
             }
           ],
@@ -705,13 +188,13 @@
         },
         "melhor_agente_estimado": {
           "agente": "Jett",
-          "chance_estimada": 47.36,
+          "chance_estimada": 38.1,
           "taxa_exibida_tracker": 50.0,
-          "confianca": "media",
+          "confianca": "muito_baixa",
           "outros_candidatos": [
             {
               "agente": "Clove",
-              "chance_estimada": 31.8,
+              "chance_estimada": 38.1,
               "taxa_exibida_tracker": 30.0
             }
           ],
@@ -738,18 +221,18 @@
         },
         "melhor_agente_estimado": {
           "agente": "Sova",
-          "chance_estimada": 38.58,
+          "chance_estimada": 34.8,
           "taxa_exibida_tracker": 40.0,
-          "confianca": "media",
+          "confianca": "muito_baixa",
           "outros_candidatos": [
             {
               "agente": "Clove",
-              "chance_estimada": 33.37,
+              "chance_estimada": 34.8,
               "taxa_exibida_tracker": 33.0
             },
             {
               "agente": "Jett",
-              "chance_estimada": 23.06,
+              "chance_estimada": 34.8,
               "taxa_exibida_tracker": 20.0
             }
           ],
@@ -776,13 +259,13 @@
         },
         "melhor_agente_estimado": {
           "agente": "Clove",
-          "chance_estimada": 21.52,
+          "chance_estimada": 20.0,
           "taxa_exibida_tracker": 22.0,
-          "confianca": "media",
+          "confianca": "muito_baixa",
           "outros_candidatos": [
             {
               "agente": "Jett",
-              "chance_estimada": 4.8,
+              "chance_estimada": 20.0,
               "taxa_exibida_tracker": 0.0
             }
           ],
@@ -794,7 +277,7 @@
     ]
   },
   "resumo": {
-    "melhor_agente_geral": "Clove",
+    "melhor_agente_geral": null,
     "melhor_mapa": "Ascent",
     "pior_mapa": "Split"
   }
