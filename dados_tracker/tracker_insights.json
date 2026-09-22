@@ -2,9 +2,9 @@
   "metadata": {
     "jogador": "elsewhere#999t",
     "season_id": "4f0864e2-40af-28a4-de2c-0e9e64e75f23",
-    "gerado_em": "2026-09-22T17:03:23+00:00",
+    "gerado_em": "2026-09-22T21:25:38+00:00",
     "quantidade_agentes": 15,
-    "quantidade_mapas": 0
+    "quantidade_mapas": 7
   },
   "metodologia": {
     "objetivo": "Comparar desempenho sem deixar amostras pequenas dominarem o ranking por causa de resultados extremos.",
@@ -555,11 +555,247 @@
     }
   },
   "mapas": {
-    "ranking": []
+    "ranking": [
+      {
+        "mapa": "Ascent",
+        "partidas": 23,
+        "vitorias": 13,
+        "derrotas": 10,
+        "win_rate_real": 56.5,
+        "win_rate_conservador": 39.74,
+        "confianca": "media",
+        "stats_ajustados": {
+          "win_rate": 53.08,
+          "kd": 0.92,
+          "adr": 148.51,
+          "acs": 219.88,
+          "dd_delta": -4.47,
+          "win_rate_conservador": 39.74
+        },
+        "melhor_agente_estimado": {
+          "agente": "Sova",
+          "chance_estimada": 59.05,
+          "taxa_exibida_tracker": 60.0,
+          "confianca": "media",
+          "outros_candidatos": [
+            {
+              "agente": "Clove",
+              "chance_estimada": 48.17,
+              "taxa_exibida_tracker": 46.0
+            }
+          ],
+          "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
+        },
+        "score": 100.0,
+        "posicao": 1
+      },
+      {
+        "mapa": "Summit",
+        "partidas": 21,
+        "vitorias": 12,
+        "derrotas": 9,
+        "win_rate_real": 57.1,
+        "win_rate_conservador": 39.59,
+        "confianca": "media",
+        "stats_ajustados": {
+          "win_rate": 53.27,
+          "kd": 0.9,
+          "adr": 144.79,
+          "acs": 217.27,
+          "dd_delta": -12.08,
+          "win_rate_conservador": 39.59
+        },
+        "melhor_agente_estimado": {
+          "agente": "Jett",
+          "chance_estimada": 77.24,
+          "taxa_exibida_tracker": 83.0,
+          "confianca": "media",
+          "outros_candidatos": [
+            {
+              "agente": "Clove",
+              "chance_estimada": 46.13,
+              "taxa_exibida_tracker": 43.0
+            }
+          ],
+          "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
+        },
+        "score": 78.51,
+        "posicao": 2
+      },
+      {
+        "mapa": "Sunset",
+        "partidas": 21,
+        "vitorias": 11,
+        "derrotas": 10,
+        "win_rate_real": 52.4,
+        "win_rate_conservador": 35.23,
+        "confianca": "media",
+        "stats_ajustados": {
+          "win_rate": 50.09,
+          "kd": 0.9,
+          "adr": 146.48,
+          "acs": 215.04,
+          "dd_delta": -5.98,
+          "win_rate_conservador": 35.23
+        },
+        "melhor_agente_estimado": {
+          "agente": "Clove",
+          "chance_estimada": 63.76,
+          "taxa_exibida_tracker": 67.0,
+          "confianca": "media",
+          "outros_candidatos": [],
+          "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
+        },
+        "score": 76.41,
+        "posicao": 3
+      },
+      {
+        "mapa": "Haven",
+        "partidas": 25,
+        "vitorias": 15,
+        "derrotas": 10,
+        "win_rate_real": 57.7,
+        "win_rate_conservador": 43.68,
+        "confianca": "alta",
+        "stats_ajustados": {
+          "win_rate": 54.14,
+          "kd": 0.87,
+          "adr": 140.42,
+          "acs": 206.88,
+          "dd_delta": -12.18,
+          "win_rate_conservador": 43.68
+        },
+        "melhor_agente_estimado": {
+          "agente": "Jett",
+          "chance_estimada": 65.2,
+          "taxa_exibida_tracker": 67.0,
+          "confianca": "alta",
+          "outros_candidatos": [
+            {
+              "agente": "Clove",
+              "chance_estimada": 51.49,
+              "taxa_exibida_tracker": 50.0
+            },
+            {
+              "agente": "Phoenix",
+              "chance_estimada": 48.17,
+              "taxa_exibida_tracker": 40.0
+            }
+          ],
+          "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
+        },
+        "score": 62.41,
+        "posicao": 4
+      },
+      {
+        "mapa": "Lotus",
+        "partidas": 21,
+        "vitorias": 8,
+        "derrotas": 13,
+        "win_rate_real": 38.1,
+        "win_rate_conservador": 22.99,
+        "confianca": "media",
+        "stats_ajustados": {
+          "win_rate": 40.4,
+          "kd": 0.88,
+          "adr": 141.2,
+          "acs": 213.89,
+          "dd_delta": -11.4,
+          "win_rate_conservador": 22.99
+        },
+        "melhor_agente_estimado": {
+          "agente": "Jett",
+          "chance_estimada": 47.36,
+          "taxa_exibida_tracker": 50.0,
+          "confianca": "media",
+          "outros_candidatos": [
+            {
+              "agente": "Clove",
+              "chance_estimada": 31.8,
+              "taxa_exibida_tracker": 30.0
+            }
+          ],
+          "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
+        },
+        "score": 37.07,
+        "posicao": 5
+      },
+      {
+        "mapa": "Breeze",
+        "partidas": 23,
+        "vitorias": 8,
+        "derrotas": 15,
+        "win_rate_real": 34.8,
+        "win_rate_conservador": 20.85,
+        "confianca": "media",
+        "stats_ajustados": {
+          "win_rate": 37.96,
+          "kd": 0.88,
+          "adr": 143.77,
+          "acs": 213.6,
+          "dd_delta": -8.65,
+          "win_rate_conservador": 20.85
+        },
+        "melhor_agente_estimado": {
+          "agente": "Sova",
+          "chance_estimada": 38.58,
+          "taxa_exibida_tracker": 40.0,
+          "confianca": "media",
+          "outros_candidatos": [
+            {
+              "agente": "Clove",
+              "chance_estimada": 33.37,
+              "taxa_exibida_tracker": 33.0
+            },
+            {
+              "agente": "Jett",
+              "chance_estimada": 23.06,
+              "taxa_exibida_tracker": 20.0
+            }
+          ],
+          "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
+        },
+        "score": 35.2,
+        "posicao": 6
+      },
+      {
+        "mapa": "Split",
+        "partidas": 19,
+        "vitorias": 4,
+        "derrotas": 15,
+        "win_rate_real": 20.0,
+        "win_rate_conservador": 9.82,
+        "confianca": "media",
+        "stats_ajustados": {
+          "win_rate": 28.7,
+          "kd": 0.86,
+          "adr": 140.89,
+          "acs": 211.8,
+          "dd_delta": -15.95,
+          "win_rate_conservador": 9.82
+        },
+        "melhor_agente_estimado": {
+          "agente": "Clove",
+          "chance_estimada": 21.52,
+          "taxa_exibida_tracker": 22.0,
+          "confianca": "media",
+          "outros_candidatos": [
+            {
+              "agente": "Jett",
+              "chance_estimada": 4.8,
+              "taxa_exibida_tracker": 0.0
+            }
+          ],
+          "nota": "Estimativa conservadora. O arquivo do Tracker nao informa quantas partidas cada agente jogou especificamente neste mapa; a confianca usa uma amostra-proxy limitada pelas partidas globais do agente."
+        },
+        "score": 0.0,
+        "posicao": 7
+      }
+    ]
   },
   "resumo": {
     "melhor_agente_geral": "Clove",
-    "melhor_mapa": null,
-    "pior_mapa": null
+    "melhor_mapa": "Ascent",
+    "pior_mapa": "Split"
   }
 }
